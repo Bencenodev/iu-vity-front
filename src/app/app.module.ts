@@ -10,6 +10,10 @@ import { FindAllProductComponent } from './find-all-product/find-all-product.com
 import { ProductServiceService } from './service/product-service.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { BuyComponent } from './buy/buy.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { HttpClientModule } from '@angular/common/http';
     CreateProductComponent,
     UpdateProductComponent,
     ConsultProductsComponent,
-    FindAllProductComponent
+    FindAllProductComponent,
+    LoginComponent,
+    RegisterComponent,
+    HomeComponent,
+    BuyComponent
   ],
   imports: [
     BrowserModule,
